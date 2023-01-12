@@ -1,156 +1,74 @@
 const productos = [
   {
-    name: "Spider-Man Miles Morales",
+    name: "Fifa 22",
     category: "ps4",
-    pricePrincipal: "89.00",
-    priceSecundaria: "49.00",
-    image: "https://i.ibb.co/svhyJWd/spiderman3.jpg",
+    pricePrincipal: "79.00",
+    priceSecundaria: "Agotado",
+    image: "https://i.postimg.cc/xdvxHDKM/Frame-18-9.jpg",
     description:
-      "Servicios:*Simple	20.00 S/.*Doble		40.00 S/.*Matrimonial	50.00 S/.Horario:*De domingo a Sábado* De 8.00am -3.00 pm",
+      "<li>Peso del Juego : 45 GB</li><li>Jugadores: 1-4</li><li>Instalacion : 1 Consola</li>"
   },
   {
-    name: "COD Modern Warfare 2",
+    name: "Spider-Man Miles Morales",
     category: "ps5",
-    pricePrincipal: "129.00",
-    priceSecundaria: "49.00",
-    image: "https://i.ibb.co/DRJV0pW/call-of-duty.jpg",
+    pricePrincipal: "89.00",
+    priceSecundaria: "Agotado",
+    image: "https://i.ibb.co/svhyJWd/spiderman3.jpg",
     description:
-      "<li>Voces: Español</li><li>Textos: Español</li><li>Peso del Juego : 53.84 GB</li><li>Requerido en Consola : 117.68 GB</li><li>instalacion : 1 Consola</li>",
+      "<li>Peso del Juego : 53 GB</li><li>Jugadores: 1</li><li>Instalacion : 1 Consola</li>"
+  },
+  {
+    name: "God Of War",
+    category: "ps4",
+    pricePrincipal: "39.00",
+    priceSecundaria: "Agotado",
+    image: "https://i.postimg.cc/wTCN2Vgd/gow.jpg",
+    description:
+      "<li>Peso del Juego : 40 GB</li><li>Jugadores: 1</li><li>Instalacion : 1 Consola</li>"
+  },
+  {
+    name: "Devil May Cry 5",
+    category: "ps5",
+    pricePrincipal: "49.00",
+    priceSecundaria: "Agotado",
+    image: "https://i.postimg.cc/d0xwRWc2/dmc5.jpg",
+    description:
+      "<li>Peso del Juego : 32 GB</li><li>Jugadores: 1</li><li>Instalacion : 1 Consola</li>"
+  },
+  {
+    name: "Crash Team Racing",
+    category: "ps4",
+    pricePrincipal: "39.00",
+    priceSecundaria: "Agotado",
+    image: "https://i.postimg.cc/7Yqx1JTZ/crashracing.jpg",
+    description:
+      "<li>Peso del Juego : 15 GB</li><li>Jugadores: 1-4</li><li>Instalacion : 1 Consola</li>"
   },
   {
     name: "God Of War Ragnarok",
     category: "ps5",
-    pricePrincipal: "139.00",
-    priceSecundaria: "49.00",
+    pricePrincipal: "179.00",
+    priceSecundaria: "Agotado",
     image: "https://i.ibb.co/mH97Db4/god-of-war.jpg",
     description:
-      "<li>Hazte con la edición Juego del Año y juega los capítulos de la historia de Marvels Spider-Man: La ciudad que nunca duerme, con misiones y desafíos adicionales, nuevas facciones de enemigos del universo de Spider-Man y trajes que desbloquear.</li>",
+      "<li>Peso del Juego : 190 GB</li><li>Jugadores: 1</li><li>Instalacion : 1 Consola</li>"
   },
   {
-    name: "Perfil Netflix 1 mes",
-    category: "streaming",
-    pricePrincipal: "13.00",
-    image: "https://i.ibb.co/FH4xL1k/netflix.jpg",
+    name: "God Of War Ragnarok",
+    category: "ps4",
+    pricePrincipal: "139.00",
+    priceSecundaria: "Agotado",
+    image: "https://i.postimg.cc/7LhdM040/gowragnarok.jpg",
     description:
-      "<li>Hazte con la edición Juego del Año y juega los capítulos de la historia de Marvels Spider-Man: La ciudad que nunca duerme, con misiones y desafíos adicionales, nuevas facciones de enemigos del universo de Spider-Man y trajes que desbloquear.</li>",
+      "<li>Peso del Juego : 100 GB</li><li>Jugadores: 1</li><li>Instalacion : 1 Consola</li>"
   },
   {
     name: "Super mario 3D World",
     category: "nintendo",
-    pricePrincipal: "79.00",
-    priceSecundaria: "49.00",
-    image: "https://i.ibb.co/QNSkd2G/mortal-kombat.jpg",
-    description: "hola"
-  },
-  {
-    name: "Fifa 23",
-    category: "pc",
-    pricePrincipal: "129.00",
-    priceSecundaria: "49.00",
-    image: "https://i.ibb.co/D99Wrz3/fifa-23.jpg",
-    description: "hola"
-  },
-  {
-    name: "The Last Of Us",
-    category: "ps5",
-    pricePrincipal: "89.00",
-    image: "https://i.ibb.co/ChtPL2W/the-last-of-us.jpg",
-    description: "hola"
-  },
-  {
-    name: "Dragon Ball FighterZ",
-    category: "ps4",
-    price: "35.00",
-    image: "https://i.ibb.co/SyRV0P7/db-fighterz.jpg",
-    description: "hola"
-  },
-  {
-    name: "Fifa 22",
-    category: "ps4",
-    price: "89.00",
-    image: "https://i.ibb.co/nfZQp1B/fifa-22.jpg",
-    description: "hola"
-  },
-  {
-    name: "Plants vs Zombies",
-    category: "ps4",
-    price: "39.00",
-    image: "https://i.ibb.co/X8SLZ95/plants-vs-zombies.jpg",
-    description: "hola"
-  },
-  {
-    name: "Minicraft",
-    category: "ps4",
-    price: "39.00",
-    image: "https://i.ibb.co/6wv1WT6/minicraft.jpg",
-    description: "hola"
-  },
-  {
-    name: "Crash Team Racing",
-    category: "ps4",
-    price: "29.00",
-    image: "https://i.ibb.co/MCdS9mS/crash-team-racing.jpg",
-    description: "hola"
-  },
-  {
-    name: "God Of War Ragnarok",
-    category: "ps4",
-    pricePrincipal: "139.00",
-    priceSecundaria: "49.00",
-    image: "https://i.ibb.co/mH97Db4/god-of-war.jpg",
-    description:
-      "<li>Hazte con la edición Juego del Año y juega los capítulos de la historia de Marvels Spider-Man: La ciudad que nunca duerme, con misiones y desafíos adicionales, nuevas facciones de enemigos del universo de Spider-Man y trajes que desbloquear.</li>",
-  },
-  {
-    name: "Mortal Kombat 11",
-    category: "ps5",
-    pricePrincipal: "79.00",
-    priceSecundaria: "49.00",
-    image: "https://i.ibb.co/QNSkd2G/mortal-kombat.jpg",
-  },
-  {
-    name: "Fifa 23",
-    category: "ps5",
-    pricePrincipal: "129.00",
-    priceSecundaria: "49.00",
-    image: "https://i.ibb.co/D99Wrz3/fifa-23.jpg",
-  },
-  {
-    name: "The Last Of Us",
-    category: "ps5",
-    pricePrincipal: "89.00",
-    image: "https://i.ibb.co/ChtPL2W/the-last-of-us.jpg",
-  },
-  {
-    name: "Dragon Ball FighterZ",
-    category: "ps5",
-    price: "35.00",
-    image: "https://i.ibb.co/SyRV0P7/db-fighterz.jpg",
-  },
-  {
-    name: "Fifa 22",
-    category: "ps4",
-    price: "89.00",
-    image: "https://i.ibb.co/nfZQp1B/fifa-22.jpg",
-  },
-  {
-    name: "Plants vs Zombies",
-    category: "ps4",
-    price: "39.00",
-    image: "https://i.ibb.co/X8SLZ95/plants-vs-zombies.jpg",
-  },
-  {
-    name: "Minicraft",
-    category: "ps4",
-    price: "39.00",
-    image: "https://i.ibb.co/6wv1WT6/minicraft.jpg",
-  },
-  {
-    name: "Crash Team Racing",
-    category: "ps4",
-    category: "pc",
-    price: "29.00",
-    image: "https://i.ibb.co/MCdS9mS/crash-team-racing.jpg",
+    pricePrincipal: "159.00",
+    priceSecundaria: "Agotado",
+    image: "https://i.postimg.cc/G2K6RKbB/mario3dworld.jpg",
+    description: "<li>Peso del Juego : 3 GB</li><li>Jugadores: 1-4</li><li>Instalacion : 1 Consola</li>"
   },
 ];
 

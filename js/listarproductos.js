@@ -1,5 +1,30 @@
 const productos = [
   {
+    name: "Fifa 23",
+    category: "ps5",
+    pricePrincipal: "149.00",
+    priceSecundaria: "Agotado",
+    image: "https://i.postimg.cc/PqPj0cbh/fifa23ps5.jpg",
+    description:
+      "<li>Peso del Juego : 100 GB</li><li>Jugadores: 1 - 4</li><li>Instalacion : 1 Consola</li>"
+  },{
+    name: "Call Of Duty Modern Warfare II",
+    category: "ps4",
+    pricePrincipal: "139.00",
+    priceSecundaria: "Agotado",
+    image: "https://i.postimg.cc/mrPXTS1Q/Frame-18.jpg",
+    description:
+      "<li>Peso del Juego : 120 GB</li><li>Jugadores: 1</li><li>Instalacion : 1 Consola</li>"
+  },
+{
+    name: "Fifa 23",
+    category: "ps4",
+    pricePrincipal: "129.00",
+    priceSecundaria: "Agotado",
+    image: "https://i.postimg.cc/y6JD0Q2M/fifa23ps4.jpg",
+    description:
+      "<li>Peso del Juego : 100 GB</li><li>Jugadores: 1 - 4</li><li>Instalacion : 1 Consola</li>"
+  },{
     name: "Fifa 22",
     category: "ps4",
     pricePrincipal: "79.00",
@@ -70,6 +95,98 @@ const productos = [
     image: "https://i.postimg.cc/G2K6RKbB/mario3dworld.jpg",
     description: "<li>Peso del Juego : 3 GB</li><li>Jugadores: 1-4</li><li>Instalacion : 1 Consola</li>"
   },
+  
+{
+    name: "Fifa 22",
+    category: "ps5",
+    pricePrincipal: "68.00",
+    priceSecundaria: "Agotado",
+    image: "https://i.postimg.cc/Gp1kBJ40/fifa22ps5.jpg",
+    description:
+      "<li>Peso del Juego : 38 GB</li><li>Jugadores: 1 - 4</li><li>Instalacion : 1 Consola</li>"
+  },
+{
+    name: "Minecraft",
+    category: "ps4",
+    pricePrincipal: "49.00",
+    priceSecundaria: "Agotado",
+    image: "https://i.postimg.cc/vHt1qFBK/minicraftps4.jpg",
+    description:
+      "<li>Peso del Juego : 3 GB</li><li>Jugadores: 1 - 4</li><li>Instalacion : 1 Consola</li>"
+  },
+{
+    name: "Mortal Kombat 11 Ultimate",
+    category: "ps5",
+    pricePrincipal: "49.00",
+    priceSecundaria: "Agotado",
+    image: "https://i.postimg.cc/7LWX5TrS/mortalkombat11.jpg",
+    description:
+      "<li>Peso del Juego : 40 GB</li><li>Jugadores: 1 - 2</li><li>Instalacion : 1 Consola</li>"
+  },
+{
+    name: "Spider-Man Miles Morales",
+    category: "ps4",
+    pricePrincipal: "49.00",
+    priceSecundaria: "Agotado",
+    image: "https://i.postimg.cc/fbBpBLnb/milesmorales.jpg",
+    description:
+      "<li>Peso del Juego : 54 GB</li><li>Jugadores: 1</li><li>Instalacion : 1 Consola</li>"
+  },
+{
+    name: "Infamous: Second Son",
+    category: "ps4",
+    pricePrincipal: "49.00",
+    priceSecundaria: "Agotado",
+    image: "https://i.postimg.cc/qRGFzvQr/secondson.jpg",
+    description:
+      "<li>Peso del Juego : 24 GB</li><li>Jugadores: 1</li><li>Instalacion : 1 Consola</li>"
+  },
+{
+    name: "Minecraft",
+    category: "ps5",
+    pricePrincipal: "49.00",
+    priceSecundaria: "Agotado",
+    image: "https://i.postimg.cc/MKcYLmNR/minecraftps5.jpg",
+    description:
+      "<li>Peso del Juego : 3 GB</li><li>Jugadores: 1 - 4</li><li>Instalacion : 1 Consola</li>"
+  },
+{
+    name: "Plants vs Zombies Battle for neighborville",
+    category: "ps4",
+    pricePrincipal: "39.00",
+    priceSecundaria: "Agotado",
+    image: "https://i.postimg.cc/HnVqJ7xM/plantvsz.jpg",
+    description:
+      "<li>Peso del Juego : 13 GB</li><li>Jugadores: 1 - 2</li><li>Instalacion : 1 Consola</li>"
+  },
+{
+    name: "Infamous: Second Son",
+    category: "ps5",
+    pricePrincipal: "49.00",
+    priceSecundaria: "Agotado",
+    image: "https://i.postimg.cc/CKRkQhzN/secondsonps5.jpg",
+    description:
+      "<li>Peso del Juego : 24 GB</li><li>Jugadores: 1</li><li>Instalacion : 1 Consola</li>"
+  },
+{
+    name: "Crash Team Racing",
+    category: "ps5",
+    pricePrincipal: "49.00",
+    priceSecundaria: "Agotado",
+    image: "https://i.postimg.cc/nh3cQqVR/crashps5.jpg",
+    description:
+      "<li>Peso del Juego : 15 GB</li><li>Jugadores: 1 - 4</li><li>Instalacion : 1 Consola</li>"
+  },
+{
+    name: "Devil May Cry 5",
+    category: "ps4",
+    pricePrincipal: "42.00",
+    priceSecundaria: "Agotado",
+    image: "https://i.postimg.cc/7YgNDZPY/dcmps4.jpg",
+    description:
+      "<li>Peso del Juego : 32 GB</li><li>Jugadores: 1</li><li>Instalacion : 1 Consola</li>"
+  },
+
 ];
 
 const cardsContainer = document.querySelector("#cards-container");

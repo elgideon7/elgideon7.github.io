@@ -61,11 +61,29 @@ const productos = [
       "<li>Peso del Juego : 32 GB</li><li>Jugadores: 1</li><li>Instalacion : 1 Consola</li>"
   },
   {
+    name: "Dragon Ball FighterZ",
+    category: "ps4",
+    pricePrincipal: "39.00",
+    priceSecundaria: "Agotado",
+    image: "https://i.postimg.cc/ydCBm4pD/dbfighterz.jpg",
+    description:
+      "<li>Peso del Juego : 8 GB</li><li>Jugadores: 1 - 4</li><li>Instalacion : 1 Consola</li>"
+  },
+  {
     name: "Crash Team Racing",
     category: "ps4",
     pricePrincipal: "39.00",
     priceSecundaria: "Agotado",
     image: "https://i.postimg.cc/7Yqx1JTZ/crashracing.jpg",
+    description:
+      "<li>Peso del Juego : 15 GB</li><li>Jugadores: 1-4</li><li>Instalacion : 1 Consola</li>"
+  },
+  {
+    name: "Dragon Ball FighterZ",
+    category: "ps4",
+    pricePrincipal: "59.00",
+    priceSecundaria: "Agotado",
+    image: "https://i.postimg.cc/Y0GHV7D6/Frame-18.jpg",
     description:
       "<li>Peso del Juego : 15 GB</li><li>Jugadores: 1-4</li><li>Instalacion : 1 Consola</li>"
   },
